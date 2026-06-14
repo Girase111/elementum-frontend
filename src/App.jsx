@@ -7,18 +7,34 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Offering from './components/Offering'
 
-
 function App() {
-
-
   return (
-    < >
-      <Header />
+  
+      <>
+  <Header />
+
+  <main className="pt-20">
+    <section id="home">
       <Hero />
+    </section>
+
+    <section id="studio">
       <Featured />
+    </section>
+
+    <section id="services">
       <Offering />
+    </section>
+
+    <section id="about">
       <AboutUs />
-      <Footer/>
+    </section>
+
+    <section id="contact">
+      <Footer />
+    </section>
+  </main>
+
     </>
   )
 }
